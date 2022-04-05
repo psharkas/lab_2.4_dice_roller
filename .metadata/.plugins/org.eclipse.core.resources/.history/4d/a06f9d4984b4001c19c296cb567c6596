@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Roller {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scnr = new Scanner(System.in);
+		
+		System.out.println("How many sides should each die have?");
+		int sides = scnr.nextInt();
+		
+		System.out.println(sides);
+		
+		
+
+	}
+
+}
