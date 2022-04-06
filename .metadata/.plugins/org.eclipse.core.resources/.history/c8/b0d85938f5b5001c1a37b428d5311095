@@ -23,7 +23,7 @@ public class Roller {
 			int sides = scnr.nextInt();
 			final int min = 1;
 			
-			System.out.println("Roll #" + count + ":");
+			System.out.println("Roll #" + count);
 			
 			System.out.println(generateRandomDieRoll(sides,min));
 			System.out.println(generateRandomDieRoll(sides,min));
